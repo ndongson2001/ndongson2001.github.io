@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+        }
+        header {
+            background: #0b5ed7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #084298;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        footer {
+            background: #0b5ed7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gallery</h1>
+    <p>Images from projects, activities, and community work</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="donate.html">Donate</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+    <div class="gallery">
+        <img src="images/photo1.jpg" alt="Gallery image 1">
+        <img src="images/photo2.jpg" alt="Gallery image 2">
+        <img src="images/photo3.jpg" alt="Gallery image 3">
+    </div>
+</main>
+
+<footer>
+    <p>© 2025</p>
+</footer>
+
+</body>
+</html>
